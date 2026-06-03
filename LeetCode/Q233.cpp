@@ -18,5 +18,5 @@ int main() {
             n = org - 1 ;
             org = n ;
         }
-        std::cout<< count  << "\n";
+        std::cout<< count  
 }
