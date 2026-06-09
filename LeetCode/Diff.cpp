@@ -2,6 +2,7 @@
 using namespace std;
 int main() {
 int n ; 
+    int org = n ;
 cout << " enter a number : ";
 cin >> n ;
 int digit; 
