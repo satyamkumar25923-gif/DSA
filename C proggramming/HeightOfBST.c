@@ -37,8 +37,6 @@ int height(struct Node *root){
     }
 }
 
-int main() {
-
    
 int main() {
     struct Node *root = createNode(50);
