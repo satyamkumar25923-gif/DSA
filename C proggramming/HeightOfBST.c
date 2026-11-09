@@ -39,12 +39,25 @@ int height(struct Node *root){
 
 int main() {
 
-    struct Node *root = createNode(10);
-    root -> left = createNode(20) ; 
-    root -> right = createNode(30) ; 
+   
+int main() {
+    struct Node *root = createNode(50);
 
-  
-    printf("height of tree = %d" , height(root));
+    root->left = createNode(30);
+    root->right = createNode(70);
+
+    root->left->left = createNode(20);
+
+    root->right->left = createNode(60);
+    root->right->right = createNode(80);
+
+    root->right->left->left = createNode(55);
+
+    printf("height of tree = %d\n", height(root));
+
+    return 0;
+}
+
     
     return 0;
 }
